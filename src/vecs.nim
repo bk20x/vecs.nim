@@ -67,5 +67,4 @@ func dst*[V: SomeVector](a, b: V): float64 =
 
 func negate*[V: SomeVector](vec: V): V =
   for rf, vf in fields(result, vec):
-    rf = -vf
-    
+    rf = -vf    
